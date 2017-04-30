@@ -1,0 +1,119 @@
+*{
+    margin:0;
+}
+    
+.topMenu{
+    width:100%;
+    position : fixed;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    background-color:white;
+}
+
+.guide{
+     /*position:fixed;*/
+    height:50px;
+    line-height:50px;
+    float : right;
+    width:100% ;
+    background-color:white;
+    font-size:80%;
+}
+
+li{ 
+    list-style:none;
+    margin-left:3%;
+}
+ul{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-end;
+    
+}
+
+.topTitle{
+    height:50px;
+    color:blue;
+    float:left;
+    background-color:white;
+    font-family:bolder;
+    padding-left:3%;
+    font-size:43px;
+    font-weight:bold;
+    
+}
+
+.main{
+    width: 100%;
+    height:100VH;
+    background-image:url(http://cfile7.uf.tistory.com/image/263D713E52726C2A0B0F20);
+    background-position: center-center;
+    text-align:center;
+    color:blue;
+    background-size : cover;
+    font-size:250%;
+    margin-bottom:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.Container{
+    margin: auto;
+    width:960px;
+    text-align:center;
+    display:flex;
+    flex-direction:row;
+    flex-wrap :nowrap;
+    justify-content:space-between;
+}
+
+.picture{
+    height:300px;
+    width:30%;
+    font-weight:bolder;
+    font-family:italic;
+    text-align:center;
+    font-size:100%;
+    color:black;
+    margin-bottom:100px;
+}
+
+.picture img{
+    width:100%;
+    height:300px;
+    border-radius:1000px;
+    margin-bottom:100px; 
+}
+
+
+.footer{
+    margin-top:100px;
+    background-color: black;
+    height:100px;
+    text-align:center;
+    color:white;
+    line-height:30px;
+}
+
+@media screen and (max-width:400px){
+    
+    .Container{
+        margin: auto;
+        width:100%;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        flex-wrap :nowrap;
+        justify-content:space-between;
+    }
+    .picture{
+        width:100%;
+        height:300px;
+    }
+    .picture img{
+        border-radius:1000px;
+    }
+}
